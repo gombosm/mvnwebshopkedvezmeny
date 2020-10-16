@@ -116,7 +116,7 @@ public class MainKosar {
             }
 
             // kosarAr = eredetiAr - kedvOsszErtek;
-            // 2020.10.16 gm
+            // 2020.10.16 gombosm
             System.out.println();
             if (kedvErtek > 0) {
                 System.out.println("Kosárban rendelt termék összesen: " + osszMennyiseg + " db (alkalmazott kedvezmény: " + kedvTipus + ", érték: " + kedvErtek + ")");
