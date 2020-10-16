@@ -1,5 +1,8 @@
 package classkedvez2;
 
+// 2020.10.16 gombosm
+// https://github.com/gombosm/mvnwebshopkedvezmeny
+
 // import java.util.ArrayList;
 
 import java.util.List;
@@ -116,7 +119,6 @@ public class MainKosar {
             }
 
             // kosarAr = eredetiAr - kedvOsszErtek;
-            // 2020.10.16 gombosm
             System.out.println();
             if (kedvErtek > 0) {
                 System.out.println("Kosárban rendelt termék összesen: " + osszMennyiseg + " db (alkalmazott kedvezmény: " + kedvTipus + ", érték: " + kedvErtek + ")");
