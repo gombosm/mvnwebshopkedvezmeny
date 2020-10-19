@@ -13,6 +13,7 @@ public class Kosar {
     // private static List<RendeltTermek> rendeltTermekList = new ArrayList<>();
 
     public Kosar() {
+        // Rendeles();
     }
 
     public static void Rendeles (){

@@ -5,8 +5,6 @@ import org.junit.Assert;
 
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
-
 public class MainMainKosarTest {
 
     @Test
@@ -27,17 +25,11 @@ public class MainMainKosarTest {
         kedvezmenyList = kedvezmenyFeltoltes.getKedvezmenyList();
 
         // darabszam bekeres
-        DarabszamBekeres darabszamBekeres = new DarabszamBekeres();
-        int osszMennyiseg = darabszamBekeres.DarabBeker(rendelhetoTermekList);
+        //DarabszamBekeres darabszamBekeres = new DarabszamBekeres();
+        //int osszMennyiseg = darabszamBekeres.DarabBeker(rendelhetoTermekList);
         // darabszamBekeres.DarabBeker(rendelhetoTermekList);
-        rendeltTermekList = darabszamBekeres.getRendeltTermekList();
+        //rendeltTermekList = darabszamBekeres.getRendeltTermekList();
 
-        Assert.assertEquals(true,
-            "Rendelhető termék: téliszalámi (egységár: 2000, kedv.típus: K23)".equals(
-                    rendelhetoTermekList.get(0).toString()));
-
-        Assert.assertEquals(true,
-                "Rendelt termék: 0 db téliszalámi (egységár: 2000, kedv.típus: K23)".equals(
-                    rendeltTermekList.get(0).toString()));
+        Assert.assertEquals("Rendelhető termék: téliszalámi (egységár: 2000, kedv.típus: K23)", rendelhetoTermekList.get(0).toString());
     }
 }
