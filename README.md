@@ -1,5 +1,5 @@
 # mvnwebshopkedvezmeny
-Java konzol alkalmazás a Training360 JAVA SE alapok oktatás MÁK 2020. szeptember 14-18. után / Gombos Mihály
+Java konzol alkalmazás a Training360 JAVA SE alapok oktatás MÁK 2020. szeptember 14-18. után  / okt.: Balogh-Biró Attila 
 
 Készíts egy Java konzol alkalmazást, ami egy webshop kedvezménykezelését szimulálja. 
 Az alábbi kedvezmény típusok léteznek:
