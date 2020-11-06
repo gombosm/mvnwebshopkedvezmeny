@@ -48,6 +48,7 @@ public class DarabszamBekeres {
     }
 
     public List<RendeltTermek> getRendeltTermekList() {
-        return rendeltTermekList;
+        // uj listat adok vissza
+        return new ArrayList<>(rendeltTermekList);
     }
 }

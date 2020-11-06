@@ -6,8 +6,10 @@ package classkedvez2;
 public class MainKosar {
 
     public static void main(String[] args) {
-        Kosar kosar = new Kosar();
-        kosar.Rendeles();
+        //Kosar kosar = new Kosar();
+        //kosar.Rendeles();
+        // vagy így is jó
+        Kosar.Rendeles();
     }
 
 }

@@ -11,10 +11,10 @@ public class KedvezmenyFeltoltes {
     }
 
     public void KedvezmenyKezdetiFeltoltes() {
-        kedvezmenyList.add(new KedvezmenyK23("K23","(K23) 2=3: kett≈ët fizet, h√°rmat kap",3));
+        kedvezmenyList.add(new KedvezmenyK23("K23","(K23) 2=3: kettıt fizet, h·rmat kap",3));
         kedvezmenyList.add(new KedvezmenyK12("K12","(K12) megapack -6000",12, 6000));
         //
-        kedvezmenyList.add(new KedvezmenyK34("K34","(K34) 3=4: h√°rmat fizet, n√©gyet kap",4));
+        kedvezmenyList.add(new KedvezmenyK34("K34","(K34) 3=4: h·rmat fizet, nÈgyet kap",4));
     }
     public List<Kedvezmeny> getKedvezmenyList() {
         return kedvezmenyList;

@@ -14,7 +14,6 @@ public class KedvezmenyK12 extends Kedvezmeny {
         return szamoltKedvezmeny;
     }
 
-
     @Override
     public final String toString() {
         return this.getKedvtipSzoveg();
